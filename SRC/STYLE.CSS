@@ -1,0 +1,222 @@
+body {
+  background: rgb(250, 250, 250);
+  display: flex;
+  justify-content: center;
+}
+
+
+.container {
+  height: 350px;
+  width: 350px;
+  padding-top: 50px;
+  margin-top: 100px;
+  background: #fdfdfd;
+  border: 1px solid #e2d8d8;
+}
+
+/*Imagem logo instagram*/
+.insta_logo {
+  height: 55px;
+  margin-top: -20px;
+  width: 175px;
+  cursor: pointer;
+  margin-left: 88px;
+
+}
+
+
+.email {
+  margin-left: 30px;
+  padding: 9px;
+  background: whitesmoke;
+  width: 80%;
+  border: 1px solid rgb(234, 234, 234);
+}
+
+
+.email:focus {
+  outline: none;
+  border-color: rgb(178, 178, 178);
+}
+
+
+::placeholder {
+  font-size: 11px;
+  color: rgb(173, 173, 173);
+}
+
+
+.password {
+  margin-top: 10px;
+}
+
+
+.container button {
+  background: #3cb9ee;
+  border: none;
+  padding: 9px;
+  width: 86%;
+  margin-left: 30px;
+  color: white;
+  border-radius: 7px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+
+.or {
+  padding-top: 8px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #737373;
+}
+
+
+.or::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100px;
+  background-color: rgb(191, 191, 191);
+  margin-top: 5px;
+  margin-left: 26px;
+}
+
+
+.or::after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 94px;
+  background-color: rgb(191, 191, 191);
+  margin-top: 5px;
+  margin-left: -125px;
+}
+
+
+.facebook {
+  display: block;
+  height: 16px;
+  width: 16px;
+  margin-top: 30px;
+  margin-left: 92px;
+  cursor: pointer;
+}
+
+
+.fb {
+  color: #385185;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: -28px;
+  margin-left: 115px;
+  margin-top: -17px;
+  font-size: 13px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+
+.forgot {
+  color: #00376b;
+  font-size: 12px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 116px;
+  font-weight: lighter;
+  margin-top: -30px;
+  cursor: pointer;
+
+}
+
+
+.dont {
+  margin-top: 7px;
+  padding: 5px;
+  background: white;
+  text-align: center;
+  border: 1px solid #d6cccc;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  color: rgb(50, 49, 49);
+}
+
+
+.dont span {
+  color: #03a6eb;
+  font-weight: bolder;
+}
+
+
+.get {
+  margin-top: -3px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 13px;
+}
+
+
+.img img {
+  height: 40px;
+  width: 134px;
+  margin-left: 30px;
+  vertical-align: baseline;
+}
+
+
+@media screen and (max-width: 400px) {
+  .img img {
+    height: 30px;
+    width: 110px;
+    margin-left: 60px;
+  }
+
+
+  .facebook {
+    margin-left: 50px;
+  }
+
+
+  .fb {
+    margin-left: 70px;
+  }
+
+
+  .dont {
+    border: none;
+    background: rgb(250, 250, 250);
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .container {
+    border: none;
+    background: rgb(248, 248, 248);
+  }
+
+
+  .or::before {
+    width: 85px;
+  }
+
+
+  .or::after {
+    width: 70px;
+    margin-left: -100px;
+  }
+}
+
+.iphone {
+  display: flex;
+  padding-left: 50px;
+  margin-left: -500px;
+  margin-top: -578px;
+
+}
+
+.shot2 {
+  display: flex;
+  margin-top: -610px;
+  margin-left: -294px;
+}
